@@ -1,5 +1,6 @@
 let body = document.querySelector("body");
-let img = document.querySelector("img");
+let img = document.querySelector(".img");
+let p = document.querySelector("p");
 
 let data = new Date().getHours();
 console.log(data);
@@ -14,6 +15,7 @@ if (data >= 18 && data <= 5) {
   body.style.background = "blue";
 } else {
   console.log("tarde");
-  body.style.background = "yellow";
+  body.style.background = "orange";
   img.src = "./img/tarde.jpg";
+  p.innerText = `Boa tarde, são ${data} horas.`
 }
