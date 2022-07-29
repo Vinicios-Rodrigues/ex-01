@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(5, 78, 161);
+  font: normal 15pt arial;
+}
+
+h1 {
+  /* display: block; */
+  margin: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+}
+
+section {
+  background-color: white;
+  width: 600px;
+  padding: 0.5rem 0 3rem 0;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.5);
+}
+img {
+  display: block;
+  margin: auto;
+  width: 570px;
+  border-radius: 1%;
+}
+.res{
+    text-align: center;
+    margin: 1rem auto;
+}
