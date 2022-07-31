@@ -10,7 +10,6 @@ body {
 }
 
 h1 {
-  /* display: block; */
   margin: 1rem;
   text-align: center;
   font-size: 2rem;
@@ -20,19 +19,23 @@ h1 {
 
 section {
   background-color: white;
-  width: 600px;
-  padding: 0.5rem 0 3rem 0;
-  margin: auto;
+  width: 500px;
+  padding: 0.5rem 0 0rem 0;
+  margin: 0 auto;
   border-radius: 5px;
   box-shadow: 3px 3px 3px rgb(0, 0, 0, 0.5);
 }
 .img {
   display: block;
   margin: auto;
-  width: 570px;
+  width: 470px;
   border-radius: 1%;
 }
-.res{
-    text-align: center;
-    margin: 1rem auto;
+.res {
+  text-align: center;
+  margin: 1rem auto;
+}
+p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
 }
